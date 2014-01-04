@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dip"
+    android:gravity="center_vertical"
+    android:ignoreGravity="@+id/icon">
+
+    <TextView android:id="@+id/songDuration"
+        android:textSize="12sp"
+        android:textColor="?android:attr/textColorTertiary"
+        android:textStyle="bold"
+        android:paddingLeft="4dip"
+        android:paddingRight="11dip"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/songName"
+        android:singleLine="true"
+        android:text = "2:34" 
+        />
+
+    <!-- The height is set to half the height of the parent, which is 64 dip -->
+
+    <!-- The height is set to half the height of the parent, which is 64 dip -->
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="end"
+        android:paddingLeft="9dip"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="artist name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="visible" 
+        android:layout_toLeftOf="@id/songDuration"
+        />
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="marquee"
+        android:paddingLeft="9dip"
+        android:singleLine="true"
+        android:text="song name"
+        android:layout_toLeftOf="@id/songDuration"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
