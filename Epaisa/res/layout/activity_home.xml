@@ -1,0 +1,162 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" >
+
+    <TableLayout
+        android:id="@+id/optionsTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:weightSum="2"
+        android:layout_centerInParent="true"
+        >
+	    <TableRow
+	        android:id="@+id/loginRow"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        >
+	
+	        <TextView 
+	            android:id="@+id/nameTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/name_textView_text"
+	            />
+	
+	        <EditText
+	            android:id="@+id/nameEditText"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:inputType="text"
+	            android:width="150dp"
+	             >
+	
+	            <requestFocus android:layout_width="match_parent" />
+
+	        </EditText>
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/passwordRow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	
+	        <TextView 
+	            android:id="@+id/passwordTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/password_textView_text"
+	            android:layout_gravity="left"
+	            >
+	            <requestFocus android:layout_width="wrap_content" />
+	            </TextView>
+	        <EditText
+	            android:id="@+id/passwordEditText"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:inputType="textPassword" 
+	            android:width="150dp"
+	            android:layout_gravity="right"
+	            >
+	        </EditText>
+	    </TableRow>
+
+	    <TableRow 
+	        android:id="@+id/themesRow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        >
+            <TextView
+		        android:id="@+id/themeOptionsTextView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center|left"
+		        android:text="@string/theme_textView_text" 
+	        />
+
+	        <RadioGroup 
+	            android:id="@+id/themesRadioGroup"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            >
+		       <RadioButton 
+		           android:id="@+id/whiteThemeRadioButton"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:text="@string/white_theme_radio_box"
+		           android:checked="true"
+		           /> 
+	
+		       <RadioButton 
+		           android:id="@+id/blueThemeRadioButton"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:text="@string/blue_theme_radio_box"
+		           /> 
+	        </RadioGroup>
+	    </TableRow>
+
+	    <TableRow 
+	        android:id="@+id/languagesRow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        >
+            <TextView
+		        android:id="@+id/languageOptionsTextView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center|left"
+		        android:text="@string/language_textView_text" 
+	        />
+
+	        <RadioGroup
+	            android:id="@+id/languageRadioGroup"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	             >
+		            
+		       <RadioButton 
+		           android:id="@+id/hindiLanguageRadioButton"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:text="@string/hindi_language_radio_button_text"
+		           /> 
+	
+		       <RadioButton 
+		           android:id="@+id/englishLanguageRadioButton"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:text="@string/english_language_radio_button_text"
+		           android:checked="true"
+		           /> 
+	        
+	        </RadioGroup>
+	    </TableRow>
+
+        <TableRow 
+        android:id="@+id/loginButtonRow"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        >
+	    <Button
+	        android:id="@+id/loginButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="38dp"
+	        android:text="@string/login_button_text"
+	         />
+	    </TableRow>
+	</TableLayout>
+</RelativeLayout>

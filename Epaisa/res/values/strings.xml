@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Epaisa</string>
+    <string name="app_name_hindi">ईपैसा</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="login_button_text">Login</string>
+    <string name="login_button_text_hindi">लॉगिन</string>
+
+    <string name="map_starter_button_text">Open Map</string>
+    <string name="map_starter_button_text_hindi">माप खोलो</string>
+
+    <string name="name_textView_text">Name</string>
+    <string name="name_textView_text_hindi">नाम</string>
+
+    <string name="password_textView_text">Password</string>
+    <string name="password_textView_text_hindi">पासवर्ड</string>
+
+    <string name="language_textView_text">Language</string>
+    <string name="language_textView_text_hindi">भाषा</string>
+
+    <string name="hindi_language_radio_button_text">Hindi</string>
+    <string name="hindi_language_radio_button_text_hindi">हिन्दी</string>
+
+    <string name="english_language_radio_button_text">English</string>
+    <string name="english_language_radio_button_text_hindi">इंग्लीश</string>
+
+    <string name="theme_textView_text">Theme</string>
+    <string name="theme_textView_text_hindi">थीम</string>
+
+    <string name="white_theme_radio_box">White Theme</string>
+    <string name="white_theme_radio_box_hindi">सफेद थीम</string>
+
+    <string name="blue_theme_radio_box">Blue Theme</string>
+    <string name="blue_theme_radio_box_hindi">नीला थीम</string>
+</resources>
