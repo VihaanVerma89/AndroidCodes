@@ -1,0 +1,54 @@
+{
+  "items" :[
+    {
+      "name" : "Margherita",
+                "type":"Veg",
+"size" : ["Small" , "Medium", "Large"],
+
+          "cost":["100", "200", "300"]
+    },
+
+
+    {
+      "name" : "Country Special",
+                "type":"Veg",
+"size" : ["Small" , "Medium", "Large"],
+
+          "cost":["150", "250", "350"]
+    },
+    {
+      "name" : "Zesty Chicken",
+                "type":"Non Veg",
+"size" : ["Small" , "Medium", "Large"],
+
+          "cost":["125", "225", "325"]
+    },
+
+    {
+      "name" : "Chicken Mexicana",
+                "type":"Non Veg",
+"size" : ["Small" , "Medium", "Large"],
+
+          "cost":["225", "325", "425"]
+    },
+
+
+     {
+      "name" : "Garlic Bread",
+                "type":"Veg",
+"size" : ["Small" , "Medium", "Large"],
+
+          "cost":["225", "325", "425"]
+    },
+
+      {
+      "name" : "Coke",
+                "type":"Veg",
+"size" : ["Small" , "Medium", "Large"],
+
+          "cost":["225", "325", "425"]
+    }
+
+
+    ]
+  }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/vihaan/code/MyApplication/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-ac7382ed0ad1f7907a014b705e0bdf35fcca88ee.jar"
+        jar="/home/vihaan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2"/>
+    <item
+        dex="/home/vihaan/code/MyApplication/app/build/intermediates/pre-dexed/debug/classes-fb456dcf3352b3653cba1f3ac1ef8bd5ca07e33a.jar"
+        jar="/home/vihaan/code/MyApplication/app/build/intermediates/exploded-aar/de.keyboardsurfer.android.widget/crouton/1.8.5/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963"/>
+    <item
+        dex="/home/vihaan/code/MyApplication/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-47dec667063abab61b7b95e5b1595dcb3ebc15c1.jar"
+        jar="/home/vihaan/Downloads/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/home/vihaan/code/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-72d5e99e1ac9a3e6c604ce9f8e68977a0ea2b654.jar"
+        jar="/home/vihaan/code/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/home/vihaan/code/MyApplication/app/build/intermediates/pre-dexed/debug/classes-0eb52c153197e13186b73a0141eaed8b8486b735.jar"
+        jar="/home/vihaan/code/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/home/vihaan/code/MyApplication/app/build/intermediates/pre-dexed/debug/classes-e4992d3332b7fa374d5d7f765682dc8f87276e7d.jar"
+        jar="/home/vihaan/code/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+
+</pre-dex-items>
